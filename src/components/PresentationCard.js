@@ -1,9 +1,13 @@
 import React from 'react'
+import Nameicon from './Nameicon'
 
 const PresentationCard = () => {
   return (
-    <div className='p-5 rounded-lg border-black border-2'>
+    <div className='p-5 rounded-lg bg-card'>
+      <div className='flex items-center'>
+        <Nameicon />
         <h1 className='bold'>Santiago Ruiz Salazar</h1>
+      </div>
         <h3>Software Engineer | Automation Engineer</h3>
         <p>@Accenture</p>
     </div>

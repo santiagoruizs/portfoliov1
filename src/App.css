@@ -10,17 +10,26 @@ h3{
 }
 p{
     font-size: 1rem;
+    color: white
 }
 
 body, html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-  }
-  * {
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+* {
+  box-sizing: border-box;
+  color: whitesmoke;
+  /* background: (600px at 1191px 407px, rgba(29, 78, 216, 0.15), transparent 80%); */
+}
 
 .scrollable-div::-webkit-scrollbar {
-    display: none; /* Safari and Chrome */
-  }
+  display: none; /* Safari and Chrome */
+}
+.duration-300 {
+  transition-duration: .3s;
+}
+.anm{
+  background: (600px at 1191px 407px, rgba(29, 78, 216, 0.15), transparent 80%);
+}
