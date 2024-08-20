@@ -9,7 +9,7 @@ const ExperienceCard = ({experience}) => {
     <div className='rounded-lg max-w-m mb-5 p-5 border-card border-2 hover:bg-card'>
         <p>{timeline}</p>
         <h2 className='mb-3'>{title}</h2>
-        <p>{description}</p>
+        <p className='text-justify'>{description}</p>
         <div className='flex items-center'>
           <p className='font-bold'>{at}</p>
           {link && <a href={link} target='_blank' rel="noreferrer"><img src={Link} alt='link' className='w-4 cursor-pointer bg-white brightness-0 invert m-2'/> </a>}

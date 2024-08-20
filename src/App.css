@@ -13,7 +13,8 @@ h3{
 }
 p{
     font-size: 1rem;
-    color: white
+    color: white;
+
 }
 
 body, html {
@@ -24,6 +25,7 @@ body, html {
 * {
   box-sizing: border-box;
   color: whitesmoke;
+  font-family: 'Roboto';
   /* background: (600px at 1191px 407px, rgba(29, 78, 216, 0.15), transparent 80%); */
 }
 

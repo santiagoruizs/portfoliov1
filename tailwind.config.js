@@ -8,7 +8,12 @@ module.exports = {
       'skill': '#27272A'
 
         },
-    extend: {},
+        
+    extend: {
+      fontFamily: {
+          roboto: ['"Roboto"']
+      }
+    },
   },
   plugins: [],
 }
