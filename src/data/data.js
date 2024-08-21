@@ -2,7 +2,7 @@ export const experience = [
     {
       title: "Automation Control Engineering Analyst",
       description: "Mid-level automation engineer position working on projects involving frontend and backend development for industrial applications (SCADA and MES), integration of 3rd party applications into industrial software, and general database management for clients in industries such as food, pharmaceuticals, and infrastructure.",
-      timeline: "July 2023 to Now",
+      timeline: "July 2023 to Now.",
       skills: ["SQL", "SQL Reporting Services", "Javascript", "CSS", "HTML", "API-REST", "SCADA", "MES"],
       at: "Accenture, Industry X, Barcelona, Spain",
       link: "https://www.accenture.com/es-es"
@@ -10,7 +10,7 @@ export const experience = [
     {
       title: "Automation Engineer",
       description: "Automation engineering junior position, working on projects involving backend development for industrial applications and general database management for clients in industries such as food and pharmaceuticals.",
-      timeline: "February 2021 to July 2023",
+      timeline: "February 2021 to July 2023.",
       skills: ["SQL", "SQL Reporting Services", "C#", "API-REST", "SCADA", "MES"],
       at: "Oasys-sw, Barcelona, Spain",
       link: ""
@@ -18,7 +18,7 @@ export const experience = [
     {
       title: "Technical Support on Automation Product Lines",
       description: "Technical support for the sales team on the automation product line",
-      timeline: "July 2019 to March 2020",
+      timeline: "July 2019 to March 2020.",
       skills: ["ABB", "Schneider Electric", "Festo", "Weidmuller"],
       at: "RG Distribuciones, Colombia",
       link: "https://rgd.com.co/"
@@ -34,7 +34,7 @@ export const education = [
       at: "Codecademy",
       // certificate: "https://www.codecademy.com/profiles/santiagoRuiz5100247613/certificates/ffd0f42cce1a44e9a0108b365047a0a6",
       link: "http://codecademy.com",
-      timeline: "September 2023 to July 2024"
+      timeline: "September 2023 to July 2024."
     },
     {
       title: "Master in Digital Industrial Transformation",
@@ -42,7 +42,7 @@ export const education = [
       skills: ["SQL", "MongoDB", "MQTT", "Arduino", "Raspberrypi", "LoRaWAN", "Zigbee", "Docker", "Linux", "Javascript", "Node-Red", "Python", "scikit-learn", "ladder", "AVEVA SP", "AVEVA MES"],
       at: "CIM UPC Barcelona, Spain",
       link: "https://www.cimupc.org/en/",
-      timeline: "March 2020 to July 2021",
+      timeline: "March 2020 to July 2021.",
     },
     {
       title: "Electronics Engineer",
@@ -50,7 +50,7 @@ export const education = [
       skills: ["C++","Python","Raspberry","MATLAB","Networks"],
       link: "https://www.javeriana.edu.co/inicio",
       at: "Pontificia Universidad Javeriana, Bogota, Colombia",
-      timeline : "January 2014 to March 2019"
+      timeline : "January 2014 to March 2019."
     },
   
   ]
