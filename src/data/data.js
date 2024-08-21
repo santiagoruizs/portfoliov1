@@ -39,7 +39,7 @@ export const education = [
     {
       title: "Master in Digital Industrial Transformation",
       description: "Master's degree focused on integrating technologies such as Machine Learning and Internet of Things in production and infrastructure environments, as well as technologies such as PLCs, SCADA, and MES.",
-      skills: ["SQL", "MongoDB", "MQTT", "Arduino", "Raspberrypi", "LoRaWAN", "Zigbee", "Docker", "Linux", "Javascript", "Node-Red", "Python", "scikit-learn", "ladder", "Wonderware SP", "WonderwareMe"],
+      skills: ["SQL", "MongoDB", "MQTT", "Arduino", "Raspberrypi", "LoRaWAN", "Zigbee", "Docker", "Linux", "Javascript", "Node-Red", "Python", "scikit-learn", "ladder", "AVEVA SP", "AVEVA MES"],
       at: "CIM UPC Barcelona, Spain",
       link: "https://www.cimupc.org/en/",
       timeline: "March 2020 to July 2021",
@@ -47,11 +47,11 @@ export const education = [
     {
       title: "Electronics Engineer",
       description: "Electronics engineering degree with a focus on analog and digital circuit design, IoT, and other related topics.",
-      skills: ["C++","Python","Raspberry","MATLAB","Networks", ""],
+      skills: ["C++","Python","Raspberry","MATLAB","Networks"],
       link: "https://www.javeriana.edu.co/inicio",
       at: "Pontificia Universidad Javeriana, Bogota, Colombia",
       timeline : "January 2014 to March 2019"
     },
   
   ]
-export const mainSkills = ['Javascript','React JS','Node JS','HTML','CSS','Tailwind','SQL', 'Express JS','Postgres','Api-REST','SQL Reporting Services','Redux','Wonderware MES', 'Wonderware SP']
+export const mainSkills = ['Javascript','React JS','Node JS','HTML','CSS','Tailwind','SQL', 'Express JS','Postgres','Api-REST','SQL Reporting Services','Redux','AVEVA MES', 'AVEVA SP']
