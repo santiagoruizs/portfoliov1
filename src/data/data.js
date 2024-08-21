@@ -1,7 +1,7 @@
 export const experience = [
     {
       title: "Automation Control Engineering Analyst",
-      description: "Automation control engineer, on projects on roles such as frontend and backend development for industrial aplications (SCADA and MES), integration with 3rd party applications into industrial software and general database management on clients from industries such as Food, Pharma and Infrastructures ",
+      description: "Mid-level automation engineer position working on projects involving frontend and backend development for industrial applications (SCADA and MES), integration of 3rd party applications into industrial software, and general database management for clients in industries such as food, pharmaceuticals, and infrastructure.",
       timeline: "July 2023 to Now",
       skills: ["SQL", "SQL Reporting Services", "Javascript", "CSS", "HTML", "API-REST", "SCADA", "MES"],
       at: "Accenture, Industry X, Barcelona, Spain",
@@ -9,7 +9,7 @@ export const experience = [
     },
     {
       title: "Automation Engineer",
-      description: "Automation engineer junior position, on projects on roles such as backend development for industrial aplications, general database management on clients from industries such as Food, Pharma",
+      description: "Automation engineering junior position, working on projects involving backend development for industrial applications and general database management for clients in industries such as food and pharmaceuticals.",
       timeline: "February 2021 to July 2023",
       skills: ["SQL", "SQL Reporting Services", "C#", "API-REST", "SCADA", "MES"],
       at: "Oasys-sw, Barcelona, Spain",
@@ -38,7 +38,7 @@ export const education = [
     },
     {
       title: "Master in Digital Industrial Transformation",
-      description: "Masters degree focused on integrating technologies such as Machine Learning and Internet fo things on production and infrastructure enviorments as well as technologies such as PLCs, SCADA and MES",
+      description: "Master's degree focused on integrating technologies such as Machine Learning and Internet of Things in production and infrastructure environments, as well as technologies such as PLCs, SCADA, and MES.",
       skills: ["SQL", "MongoDB", "MQTT", "Arduino", "Raspberrypi", "LoRaWAN", "Zigbee", "Docker", "Linux", "Javascript", "Node-Red", "Python", "scikit-learn", "ladder", "Wonderware SP", "WonderwareMe"],
       at: "CIM UPC Barcelona, Spain",
       link: "https://www.cimupc.org/en/",
@@ -46,7 +46,7 @@ export const education = [
     },
     {
       title: "Electronics Engineer",
-      description: "Electronics Engineer degree with focus on analogic and digital circuits design, IOT and other topics",
+      description: "Electronics engineering degree with a focus on analog and digital circuit design, IoT, and other related topics.",
       skills: ["C++","Python","Raspberry","MATLAB","Networks", ""],
       link: "https://www.javeriana.edu.co/inicio",
       at: "Pontificia Universidad Javeriana, Bogota, Colombia",
