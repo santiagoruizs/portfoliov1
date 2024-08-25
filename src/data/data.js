@@ -16,13 +16,29 @@ export const experience = [
       link: ""
     },
     {
+      title: "Full Stack Developer",
+      description: "Designing, developing and mantaining the REST API that communicated with the IOT devices, the APP and the user.Also integrating and optimizing cloud-based solutions on AWS, leveraging services like Lambda, EC2, S3, and API Gateway to ensure high performance, scalability, and reliability.",
+      timeline: "July 2019 to July 2020",
+      skills: ["Javascript","Node JS","Rest API","Typescript","React", "AWS"],
+      at: "Zaboo.co",
+      link:"https://www.linkedin.com/company/zaboo-co/about/"
+    },
+    {
       title: "Technical Support on Automation Product Lines",
       description: "Technical support for the sales team on the automation product line",
-      timeline: "July 2019 to March 2020.",
+      timeline: "March 2019 to March 2020.",
       skills: ["ABB", "Schneider Electric", "Festo", "Weidmuller"],
       at: "RG Distribuciones, Colombia",
       link: "https://rgd.com.co/"
     },
+    {
+      title: "Full Stack Developer",
+      description: "Design, build, and optimize scalable, secure, and responsive web applications across both front-end and back-end systems.",
+      timeline: "October 2016 to Feb 2018",
+      skills: ["Javascript","PostgreSQL","Node JS"],
+      at: "Hadron Lab",
+      link:""
+    }
   
   ]
   
@@ -53,5 +69,16 @@ export const education = [
       timeline : "January 2014 to March 2019."
     },
   
+  ]
+
+  export const projects = [
+    {
+      title: 'Reddit Client',
+      description: 'This is a Reddit client application that utilizes the public Reddit API. The app displays trending posts and popular subreddits, allowing users to effortlessly explore and navigate through top subreddits. Additionally, it offers a search feature that enables users to find specific posts across the Reddit platform.',
+      skills: ['React JS', 'React-Redux', 'API', 'Javascript', 'CSS', 'HTML'
+      ],
+      link: 'https://reliable-scone-2b4a58.netlify.app/',
+      image:''
+    }
   ]
 export const mainSkills = ['Javascript','React JS','Node JS','HTML','CSS','Tailwind','SQL', 'Express JS','Postgres','Api-REST','SQL Reporting Services','Redux','AVEVA MES', 'AVEVA SP']

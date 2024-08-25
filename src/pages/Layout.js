@@ -4,9 +4,14 @@ import ExperienceCard from '../components/ExperienceCard'
 import Bio from '../components/Bio'
 import { useState } from 'react'
 import Socials from '../components/Socials'
-import {experience, education } from '../data/data'
+import {experience, education, projects } from '../data/data'
+import ProjectCard from '../components/ProjectCard'
 
 const Layout = () => {
+  const project = {
+    link: 'https://reliable-scone-2b4a58.netlify.app/',
+    skills: ['React', 'Redux']
+  }
   // console.log(experience)
   const [gradient, setGradient] = useState("radial-gradient(circle, #09090B, #09090B)");
   const handleMouseMove = (e) => {
@@ -35,6 +40,10 @@ const Layout = () => {
             <div className=' w-full lg:w-10/12'>
               <h3 className='mb-5 font-bold' >Education</h3>
               {education.map(e => <ExperienceCard experience={e}/>)} 
+            </div>
+            <div className=' w-full lg:w-10/12'>
+              <h3 className='mb-5 font-bold' >Proyects</h3>
+              {projects.map(p => <ProjectCard project={p}/>)}
             </div>
         </div>
     </div>
