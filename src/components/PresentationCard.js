@@ -8,7 +8,7 @@ const PresentationCard = () => {
         <Nameicon />
         <h1 className='font-bold text-xl lg:text-2xl'>Santiago Ruiz Salazar</h1>
       </div>
-        <h3>Software Engineer | Automation Engineer</h3>
+        <h3>Full Stack Software Engineer | Automation Engineer</h3>
         <p>@Accenture</p>
     </div>
   )
