@@ -8,11 +8,7 @@ import {experience, education, projects } from '../data/data'
 import ProjectCard from '../components/ProjectCard'
 
 const Layout = () => {
-  const project = {
-    link: 'https://reliable-scone-2b4a58.netlify.app/',
-    skills: ['React', 'Redux']
-  }
-  // console.log(experience)
+
   const [gradient, setGradient] = useState("radial-gradient(circle, #09090B, #09090B)");
   const handleMouseMove = (e) => {
     const { clientX, clientY, currentTarget } = e;
