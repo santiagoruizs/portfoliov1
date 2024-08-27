@@ -76,7 +76,7 @@ const Layout = () => {
             <Bio />
             <Socials />
         </div>
-        <div className='w-full lg:w-3/5 flex flex-col lg:items-end items-center justify-evenly h-full overflow-y-scroll scrollable-div '>
+        <div className='w-full lg:w-3/5 flex flex-col lg:items-end items-center justify-evenly h-full overflow-y-scroll scrollable-div'>
             <div id="Experience" className='w-full lg:w-10/12' ref={experienceRef}>
               <h3 className='mb-5 font-bold'>Experience</h3>
               {experience.map(e => <ExperienceCard experience={e}/>)} 
