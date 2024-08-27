@@ -6,9 +6,9 @@ const bioParagraph = "I specialize in building scalable and efficient applicatio
 const Bio = () => {
   return (
     <div className='mt-5 flex flex-col'>
-        <p className='text-justify mb-2'>{bioIntro}
+        <p className='text-justify mb-5 px-5'>{bioIntro}
         </p>
-        <p className='text-justify'>{bioParagraph}</p>
+        <p className='text-justify px-5'>{bioParagraph}</p>
         <div className='mt-5 flex flex-wrap w-full'>
             {mainSkills.map(s => <Skill skill={s} />)}
         </div>

@@ -5,7 +5,7 @@ import Reddit from '../icons/redditClient.png'
 const ProjectCard = ({project}) => {
     const {title, description, skills, link} = project
   return (
-    <div className='rounded-lg max-w-m mb-5 p-5 border-card border-2 hover:bg-card'>
+    <div className='rounded-lg max-w-m mb-5 p-10 border-card border-2 hover:bg-card'>
         {/* <p>{timeline}</p> */}
 
         <h2 className='mb-3'>{title}</h2>
