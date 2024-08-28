@@ -78,7 +78,16 @@ export const education = [
       skills: ['React JS', 'React-Redux', 'API', 'Javascript', 'CSS', 'HTML'
       ],
       link: 'https://reliable-scone-2b4a58.netlify.app/',
-      image:''
+      image:'',
+      github: 'https://github.com/santiagoruizs/reddit-client-app'
+    },
+    {
+      title: 'This Portfolio',
+      description: 'Developer portfolio site, done mainly with react, displaying functions such as getBoundingClientRect and IntersectionObserver to provide interacting UI animations.',
+      skills: ['React JS', 'Tailwind', 'Javascript'],
+      link: '',
+      image:'',
+      github: 'https://github.com/santiagoruizs/portfoliov1'
     }
   ]
 export const mainSkills = ['Javascript','React JS','Node JS','HTML','CSS','Tailwind','SQL', 'Express JS','Postgres','Api-REST','SQL Reporting Services','Redux','AVEVA MES', 'AVEVA SP']

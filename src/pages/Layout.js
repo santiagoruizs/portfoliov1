@@ -18,6 +18,9 @@ const Layout = () => {
   const [activeSection, setActiveSection] = useState(null);
 
   useEffect(() => {
+    setGradient(
+      `radial-gradient(circle at 0% 0%, #27272A, #09090B)`
+    );
     const sections = [
       { id: 'Experience', ref: experienceRef },
       { id: 'Education', ref: educationRef },
@@ -33,7 +36,7 @@ const Layout = () => {
         });
       },
       {
-        threshold: 0.2, // 60% of the section needs to be visible
+        threshold: 0.2, 
       }
     );
 
@@ -60,8 +63,9 @@ const Layout = () => {
     const { clientX, clientY, currentTarget } = e;
     const { width, height } = currentTarget.getBoundingClientRect();
 
-    const x = (clientX / width) * 100;
-    const y = (clientY / height) * 100;
+    const x = (clientX / width) * 100 ;
+    const y = (clientY / height) * 100 ;
+
 
     setGradient(
       `radial-gradient(circle at ${x}% ${y}%, #27272A, #09090B)`
