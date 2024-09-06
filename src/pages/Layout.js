@@ -75,7 +75,7 @@ const Layout = () => {
     <div  onMouseMove={handleMouseMove} style={{ background: gradient }}>
     <Header scrollToSection={scrollToSection} experienceRef={experienceRef} educationRef={educationRef} projectsRef={projectsRef} activeSection={activeSection}/>
     <div className='flex flex-col justify-center items-center p-5 lg:p-10 lg:flex-row lg:pt-[100px] lg:justify-around lg:h-screen'>
-        <div className='w-full lg:w-2/5 h-full sticky top-0'>
+        <div className='w-full lg:w-2/5 h-full sticky top-0 overflow-y-scroll scrollable-div'>
             <PresentationCard />
             <Bio />
             <Socials />
