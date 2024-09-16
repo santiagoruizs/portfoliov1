@@ -15,14 +15,14 @@ export const experience = [
       at: "Oasys-sw, Barcelona, Spain",
       link: ""
     },
-    // {
-    //   title: "Full Stack Developer",
-    //   description: "Designing, developing and mantaining the REST API that communicated with the IOT devices, the APP and the user.Also integrating and optimizing cloud-based solutions on AWS, leveraging services like Lambda, EC2, S3, and API Gateway to ensure high performance, scalability, and reliability.",
-    //   timeline: "July 2019 to July 2020",
-    //   skills: ["Javascript","Node JS","Rest API","Typescript","React", "AWS"],
-    //   at: "Zaboo.co",
-    //   link:"https://www.linkedin.com/company/zaboo-co/about/"
-    // },
+    {
+      title: "Full Stack Developer",
+      description: "Designing, developing and mantaining the REST API that communicated with the IOT devices, the APP and the user.Also integrating and optimizing cloud-based solutions on AWS, leveraging services like Lambda, EC2, S3, and API Gateway to ensure high performance, scalability, and reliability.",
+      timeline: "July 2019 to July 2020",
+      skills: ["Javascript","Node JS","Rest API","Typescript","React", "AWS"],
+      at: "Zaboo.co",
+      link:"https://www.linkedin.com/company/zaboo-co/about/"
+    },
     {
       title: "Technical Support on Automation Product Lines",
       description: "Technical support for the sales team on the automation product line",
