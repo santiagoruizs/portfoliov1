@@ -3,7 +3,7 @@ export const experience = [
       title: "Automation Control Engineering Analyst",
       description: "Mid-level automation engineer position working on projects involving frontend and backend development for industrial applications (SCADA and MES), integration of 3rd party applications into industrial software, and general database management for clients in industries such as food, pharmaceuticals, and infrastructure.",
       timeline: "July 2023 to Now.",
-      skills: ["SQL", "SQL Reporting Services", "Javascript", "CSS", "HTML", "API-REST", "SCADA", "MES"],
+      skills: ["SQL", "SQL Reporting Services", "Javascript","React","NodeJS", "CSS", "HTML", "API-REST", "SCADA", "MES"],
       at: "Accenture, Industry X, Barcelona, Spain",
       link: "https://www.accenture.com/es-es"
     },
@@ -11,18 +11,18 @@ export const experience = [
       title: "Automation Engineer",
       description: "Automation engineering junior position, working on projects involving backend development for industrial applications and general database management for clients in industries such as food and pharmaceuticals.",
       timeline: "February 2021 to July 2023.",
-      skills: ["SQL", "SQL Reporting Services", "C#", "API-REST", "SCADA", "MES"],
+      skills: ["SQL", "SQL Reporting Services", "C#", "API-REST", "SCADA", "MES", "JavaScript", "CSS", "HTML", "React"],
       at: "Oasys-sw, Barcelona, Spain",
       link: ""
     },
-    // {
-    //   title: "Full Stack Developer",
-    //   description: "Designing, developing and mantaining the REST API that communicated with the IOT devices, the APP and the user.Also integrating and optimizing cloud-based solutions on AWS, leveraging services like Lambda, EC2, S3, and API Gateway to ensure high performance, scalability, and reliability.",
-    //   timeline: "July 2019 to July 2020",
-    //   skills: ["Javascript","Node JS","Rest API","Typescript","React", "AWS"],
-    //   at: "Zaboo.co",
-    //   link:"https://www.linkedin.com/company/zaboo-co/about/"
-    // },
+    {
+      title: "Full Stack Developer",
+      description: "Designing, developing and mantaining the REST API that communicated with the IOT devices, the APP and the user.Also integrating and optimizing cloud-based solutions on AWS, leveraging services like Lambda, EC2, S3, and API Gateway to ensure high performance, scalability, and reliability.",
+      timeline: "July 2019 to July 2020",
+      skills: ["Javascript","Node JS","Rest API","Typescript","React", "AWS"],
+      at: "Zaboo.co",
+      link:"https://www.linkedin.com/company/zaboo-co/about/"
+    },
     {
       title: "Technical Support on Automation Product Lines",
       description: "Technical support for the sales team on the automation product line",
