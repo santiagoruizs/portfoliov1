@@ -6,7 +6,7 @@ const ExperienceCard = ({experience}) => {
   const {title, description, timeline, skills, at, link} = experience
   return (
 
-    <div className='rounded-lg max-w-m mb-5 p-10 border-card border-2 hover:bg-card'>
+    <div className='rounded-lg max-w-m mb-5 p-5 lg:p-10 border-card border-2 hover:bg-card'>
         <p>{timeline}</p>
         <h2 className='mb-3 font-bold'>{title}</h2>
         <p className='text-justify'>{description}</p>

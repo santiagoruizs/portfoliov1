@@ -73,12 +73,21 @@ export const education = [
 
   export const projects = [
     {
+      title: 'Banking APP',
+      description: 'Fullstack Banking Application, which supports signup, authentication, and transactions like deposit withdrawal and transferees, uses a tailwind-based components library and Typescript for type-checking',
+      skills: ['React JS', 'Tailwind', 'NodeJS', 'Javascript', 'CSS', 'HTML', 'shadcn/ui', 'lucide-react', 'PostgreSQL', 'Typescript'],
+      link: 'https://banking-clientv2.onrender.com/',
+      image:'/images/banking-app.png',
+      github: 'https://github.com/santiagoruizs/banking-clientv2/',
+      backend_gh:'https://github.com/santiagoruizs/bankingAPI'
+    },
+    {
       title: 'Reddit Client',
       description: 'This is a Reddit client application that utilizes the public Reddit API. The app displays trending posts and popular subreddits, allowing users to effortlessly explore and navigate through top subreddits. Additionally, it offers a search feature that enables users to find specific posts across the Reddit platform.',
       skills: ['React JS', 'React-Redux', 'API', 'Javascript', 'CSS', 'HTML'
       ],
       link: 'https://reliable-scone-2b4a58.netlify.app/',
-      image:'',
+      image:'/images/redditClient.png',
       github: 'https://github.com/santiagoruizs/reddit-client-app'
     },
     {
