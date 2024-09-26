@@ -11,6 +11,8 @@ import Header from '../components/Header'
 const Layout = () => {
 
   const [gradient, setGradient] = useState("radial-gradient(circle, #09090B, #09090B)");
+  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 1024);
+
   const experienceRef = useRef(null);
   const educationRef = useRef(null);
   const projectsRef = useRef(null);
@@ -18,9 +20,16 @@ const Layout = () => {
   const [activeSection, setActiveSection] = useState(null);
 
   useEffect(() => {
-    setGradient(
-      `radial-gradient(circle at 0% 0%, #27272A, #09090B)`
-    );
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth > 1024);
+    };
+    window.addEventListener('resize', handleResize);
+    if (isLargeScreen) {
+      setGradient(
+        `radial-gradient(circle at 0% 0%, #27272A, #09090B)`
+      );
+    }
+    
     const sections = [
       { id: 'Experience', ref: experienceRef },
       { id: 'Education', ref: educationRef },
@@ -51,15 +60,17 @@ const Layout = () => {
         if (section.ref.current) {
           observer.unobserve(section.ref.current);
         }
+        window.removeEventListener('resize', handleResize);
       });
     };
-  }, []);
+  }, [isLargeScreen]);
 
   const scrollToSection = (elementRef) => {
     elementRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
   const handleMouseMove = (e) => {
+    if (!isLargeScreen) return;
     const { clientX, clientY, currentTarget } = e;
     const { width, height } = currentTarget.getBoundingClientRect();
 
@@ -72,7 +83,7 @@ const Layout = () => {
     );
   };
   return (
-    <div  onMouseMove={handleMouseMove} style={{ background: gradient }}>
+    <div  onMouseMove={handleMouseMove} style={{ background: gradient }} >
     <Header scrollToSection={scrollToSection} experienceRef={experienceRef} educationRef={educationRef} projectsRef={projectsRef} activeSection={activeSection}/>
     <div className='flex flex-col justify-center items-center p-5 lg:p-10 lg:flex-row lg:pt-[100px] lg:justify-around lg:h-screen'>
         <div className='w-full lg:w-2/5 h-full sticky top-0 overflow-y-scroll scrollable-div'>
